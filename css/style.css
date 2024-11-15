@@ -25,5 +25,176 @@ ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: white;
 }
+
+/* brightness() mdn */
+
+.container-header {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+.icon-menu {
+  margin-left: 32px;
+}
+
+.icon-logo {
+  margin-left: 98px;
+  width: 75px;
+  height: 20px;
+}
+
+.introduction-container {
+  background-image: url(../assets/img/images/home-hero-mobile.jpg);
+  height: 650px;
+}
+
+.introduction-position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-top: 115px;
+}
+
+.title-introduction {
+  font-family: 'Space Mono', monospace;
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -1.79px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+.text-introduction {
+  margin: 0;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 24px;
+  color: #fff;
+}
+
+.button-introduction {
+  position: relative;
+  font-family: 'Space Mono', monospace;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 700;
+  margin-top: 34px;
+  z-index: 1;
+  color: #fff;
+}
+
+.button-introduction::after {
+  content: '';
+  position: absolute;
+  background-color: #fcb72b;
+  width: 180px;
+  height: 53px;
+  right: -40px;
+  top: -10px;
+  z-index: -1;
+}
+
+.arrow-left {
+  position: relative;
+  right: 240px;
+  top: 50px;
+}
+/* main */
+
+.main-container {
+  height: 3486px;
+}
+
+.locate-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 312px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 120px;
+}
+.logo-app {
+  background-image: url(../assets/img/icons/locate.svg);
+  background-size: cover;
+  height: 56px;
+  width: 56px;
+}
+
+.pick-scooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.logo-scooter {
+  background-image: url(../assets/img/icons/scooter.svg);
+  background-size: cover;
+  height: 56px;
+  width: 56px;
+}
+
+.enjoy-ride {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 120px;
+}
+
+.logo-ride {
+  background-image: url(../assets/img/icons/ride.svg);
+  background-size: cover;
+  height: 56px;
+  width: 56px;
+  margin-bottom: 24px;
+}
+
+.subtitle-feature {
+  font-size: 20px;
+  font-weight: 700;
+  color: #495567;
+  letter-spacing: -0.89px;
+  font-family: 'Space Mono', monospace;
+  margin-bottom: 24px;
+}
+
+.text-features {
+  color: #939caa;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+
+.girl-phone {
+  background-image: url(../assets/img/patterns/left-downward-arrow.svg), url(../assets/img/images/telemetry.jpg);
+  background-size: cover;
+  height: 348px;
+}
+
+/* overflow hidden -- pointer-events */
+
+/* max-heigth 0
+
+max-height 500px
+*/
