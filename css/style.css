@@ -186,8 +186,7 @@ body {
   font-weight: 700;
   margin-top: 34px;
   z-index: 1;
-  color: #fff;
-  left: 200px;
+  color: #fff;  
 }
 
 .button-introduction::after {
@@ -569,12 +568,13 @@ body {
   .line-white{
     background-image: url(../assets/img/patterns/line.svg);
     background-size: cover;
-    width: 45px;
-    height: 1000px;
+    width: 950px;
+    height: 10px;
+    rotate: 90deg;
     filter: Grayscale(100%);
     position: relative;
-    bottom: 1200px;
-    left: 110px;
+    bottom: 650px;
+    left: -330px;
     z-index: -1;
     margin: 0;
   }
@@ -586,6 +586,7 @@ body {
     top: -230px;
     width: 1200px;
     height: 10px;
+    rotate: 0deg;
   }
 }
 
@@ -965,6 +966,17 @@ body {
 
 /* information 3*/
 
+
+@media screen and (width > 1024px) {
+  .container-information-desktop-3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 0;
+    margin-top: 160px;
+    overflow: hidden;
+  }
+}
 .information-photo-3{
   height: 445px;
   margin-left: 32px;
@@ -978,13 +990,17 @@ body {
   }
 }
 
-
-.wallet{
-  
-  overflow: visible;
+@media screen and (width > 1024px){
+  .information-photo-3{
+    margin: 0;
+    overflow: visible;
+  }
 }
 
+
+
 .wallet{
+  overflow: visible;
   background-image: url(../assets/img/images/payments.jpg);
   background-size: cover;
   width: 311px;
@@ -1000,6 +1016,12 @@ body {
     margin: 0;
     margin-left: 164px;
  
+  }
+}
+
+@media screen and (width > 1024px){
+  .wallet{
+    margin: 0;
   }
 }
 
@@ -1022,6 +1044,12 @@ body {
   }
 }
 
+@media screen and (width > 1024px){
+  .information-arrow-3{
+    left: 250px;
+  }
+}
+
 .information-container-3{
   width: 311px;
   height: 311px;
@@ -1041,6 +1069,13 @@ body {
   margin-top: 64px;
   width: 573px;
   height: 304px;
+  }
+}
+
+@media screen and (width > 1024px){
+  .information-container-3{
+    margin: 0;
+    align-items: start;
   }
 }
 
