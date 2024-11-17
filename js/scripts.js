@@ -18,3 +18,19 @@ const toggleMenu = () => {
 }
 
 iconMenuElement.addEventListener("click", toggleMenu)
+
+
+
+const accordionElement = document.getElementById('faq-container');
+const allAccordionTexts = document.querySelectorAll('.faq-text');
+
+const toggleAccordionText = event => {
+  console.log(event.target);
+  // for (const accordionText of allAccordionTexts) {
+  //   accordionText.classList.remove('accordion-text-show');
+  // }
+
+  event.target.children[0].children[1].classList.toggle('faq-text-show');
+};
+
+accordionElement.addEventListener('click', toggleAccordionText);
