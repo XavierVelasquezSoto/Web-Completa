@@ -55,6 +55,7 @@ body {
   cursor: pointer;
 }
 
+
 @media screen and (width > 768px){
   .icon-menu{
     display: none;
@@ -1050,6 +1051,13 @@ body {
   }
 }
 
+@media screen and (width > 1024px){
+  .circle-2{
+    left: 490px;
+    top: -640px;
+  }
+}
+
 .information-container-3{
   width: 311px;
   height: 311px;
@@ -1125,6 +1133,306 @@ body {
   top: -15px;
   z-index: -1;
 }
+
+
+
+/* footer header */
+
+
+.footer-content{
+  height: 320px;
+  margin-top: 205px;
+  background-color: #495567;
+  overflow: hidden;
+}
+
+@media screen and (width > 768px) {
+  .footer-content{
+    height: 300px;
+    margin-top: 197px;    
+  }
+}
+
+
+@media screen and (width > 1024px){
+  .footer-content{
+    margin-top: 200px;
+  }
+}
+/* 359px margin 1024px */
+
+.flex-content{
+  display: flex;
+  flex-direction: column;
+  height: 144px;
+  padding-top: 88px;
+}
+
+@media screen and (width > 768px) {
+  .flex-content{
+    height: 176px;
+    padding-top: 62px;
+    margin-left: 155px;
+    margin-right: 155px;
+  }
+}
+
+
+@media screen and (width > 1024px){
+  .flex-content{
+    height: 96px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 165px;
+    margin-right: 165px;
+    padding-top: 102px;
+  }
+}
+
+.footer-text{
+  margin: 0;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -1.43px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Space Mono", serif;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+@media screen and (width > 768px) {
+  .footer-text{
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+  }
+}
+
+@media screen and (width > 1024px){
+  .footer-text{
+    text-align: left;
+    width: 415px;
+    height: 96px;
+  }
+}
+
+.footer-available-app{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media screen and (width > 768px) {
+  .footer-available-app{
+    justify-content: center;
+  }
+}
+
+@media screen and (width > 1024px){
+  .footer-available-app{
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and ( width > 768px){
+  .app-store{
+  margin-right: 12px;
+  }
+}
+
+@media screen and (width > 1024px){
+  .app-store{    
+    height: 56px;
+  }
+}
+
+@media screen and (width > 1024px){
+  .google-play{
+    height: 56px;
+  }
+}
+
+.footer-circle-1{
+ /*  background-image: url(../assets/img/patterns/semi-circles.svg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  position: relative;
+  top: 125px;
+}
+
+@media screen and (width > 768px) {
+  .footer-circle-1{
+    top: 18px;
+  }
+}
+
+@media screen and (width > 1024px){
+  .footer-circle-1{
+    top: 44px;
+    left: 460px;
+  }
+}
+
+/*  footer final */
+
+
+.networks{
+  height: 438px;
+  background-color: #333A44;
+}
+@media screen and (width > 768px) {
+  .networks{
+    height: 96px;
+  }
+}
+
+.networks-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+}
+
+@media screen and (width > 768px){
+  .networks-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    padding-top: 35px;
+    margin-left: 39px;
+  }
+}
+
+@media screen and (width > 1024px){
+  .networks-container{
+    margin-left: 168px;
+  }
+}
+
+.footer-logo{
+  background-image: url(../assets/img/logo.svg);
+  background-size: cover;
+  filter: brightness(100);
+  width: 107px;
+  height: 28px;
+}
+
+
+.footer-ul{
+  margin-top: 41px;
+  width: 74px;
+  height: 107px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+@media screen and (width > 768px){
+  .footer-ul{
+    flex-direction: row;
+    width: 249px;
+    height: 25px;
+    margin: 0;
+    margin-left: 58px;
+  }
+}
+
+
+.footer-color-font{
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Space Mono", serif;
+  font-weight: 700;
+  color: #939CAA;
+}
+
+@media screen and (width > 768px){}
+
+@media screen and (width > 1024px){}
+
+.flex-networks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 120px;
+  height: 24px;
+  margin-top: 85px;
+}
+
+@media screen and (width > 768px){
+  .flex-networks{
+    margin: 0;
+    margin-left: 153px;
+  }
+}
+
+@media screen and (width > 1024px){
+  .flex-networks{
+    margin-left: 570px;
+  }
+}
+
+.logo-networks-facebook{
+ background-image: url(../assets/img/icons/facebook.svg);
+ background-size: cover;
+ width: 24px;
+ height: 24px;
+}
+
+@media screen and (width > 768px){}
+@media screen and (width > 1024px){}
+
+.logo-networks-x {
+ background-image: url(../assets/img/icons/twitter.svg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 28px;
+ height: 24px;
+}
+
+@media screen and (width > 768px){}
+@media screen and (width > 1024px){}
+
+.logo-networks-instagram {
+ background-image: url(../assets/img/icons/instagram.svg);
+ background-size: cover;
+ width: 24px;
+ height: 24px;
+}
+
+@media screen and (width > 768px){}
+@media screen and (width > 1024px){}
+
+
+
+/* ABOUT */
+
+
+/* header */
+
+.header-img{
+  background-image: url(../assets/img/images/about-hero-mobile.jpg);
+  background-size: cover;
+  height: 160px;
+}
+
+.header-title{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1.79px;
+  color: #fff;
+  font-family: "Space Mono", serif;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 60px;
+}
+
 
 
 /* overflow hidden -- pointer-events */
