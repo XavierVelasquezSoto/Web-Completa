@@ -1413,12 +1413,40 @@ body {
 
 
 /* header */
+/* 
+@media screen and (width > 768px) {}
+@media screen and (width > 1024px) {} 
+*/
+
 
 .header-img{
   background-image: url(../assets/img/images/about-hero-mobile.jpg);
   background-size: cover;
   height: 160px;
 }
+
+@media screen and (width > 768px) {
+  .header-img{
+    background-image: url(../assets/img/images/about-hero-tablet.jpg);
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    overflow: hidden;
+    padding-left: 97px;
+    padding-top: 70px;
+  }
+}
+
+@media screen and (width > 1024px) {
+  .header-img{
+    background-image: url(../assets/img/images/about-hero-desktop.jpg);
+    background-size: cover;
+    padding-left: 165px;
+    padding-top: 68px;
+  }
+}
+
 
 .header-title{
   display: flex;
@@ -1433,6 +1461,155 @@ body {
   padding-top: 60px;
 }
 
+@media screen and (width > 768px) {
+  .header-title{
+    padding: 0;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+  }
+}
+
+
+.about-circles{
+  display: none;
+}
+
+@media screen and (width > 768px) {
+  .about-circles{
+    display: block;
+    position: relative;
+    padding-left: 306px;
+  }
+}
+@media screen and (width > 1024px) {
+  .about-circles{
+    padding-left: 910px;
+  }
+} 
+
+/* ABOUT MAIN */
+
+/* 
+@media screen and (width > 768px) {}
+@media screen and (width > 1024px) {} 
+*/
+
+.about-hidden{
+  overflow: hidden;
+}
+
+
+.about-img-1{
+  height: 311px;
+}
+
+@media screen and (width > 768px) {
+  .about-img-1{
+    height: 445px;
+    
+  }
+}
+@media screen and (width > 1024px) {
+  .about-img-1{
+    height: 445px;
+  }
+} 
+
+/* circulo blanco */
+@media screen and (width > 768px) {
+  .about-white-circle{
+    background-image: url(../assets/img/patterns/circle.svg);
+    background-size: cover;
+    width: 445px;
+    height: 445px;
+    position: relative;
+    top: -500px;
+    left: 670px;
+    z-index: -1;
+  }
+}
+@media screen and (width > 1024px) {
+  .about-white-circle{
+    background-image: url(../assets/img/patterns/circle.svg);
+    background-size: cover;
+    height: 445px;
+  }
+} 
+
+
+.about-phone{
+  background-image: url(../assets/img/images/digital-era.jpg);
+  background-size: cover;
+  width: 311px;
+  height: 311px;
+  border-radius: 100%;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 72px;
+}
+
+@media screen and (width > 768px) {
+  .about-phone{
+    width: 445px;
+    height: 445px;
+    margin: 0;
+    margin-left: 144px;
+    margin-top: 164px;
+  }
+}
+@media screen and (width > 1024px) {
+  .about-phone{
+    margin: 0;
+
+  }
+} 
+
+.about-arrow-right{
+  background-image: url(../assets/img/patterns/left-upward-arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 735px;
+  height: 311px;
+  position: relative;
+  top: -182px;
+  left: 20px;
+}
+
+
+@media screen and (width > 768px) {
+  .about-arrow-right{
+    top: -182px;
+    left: 20px;
+  }
+}
+@media screen and (width > 1024px) {
+  .about-arrow-right{
+
+  }
+} 
+
+
+.about-container-text-1{
+
+}
+
+@media screen and (width > 768px) {}
+@media screen and (width > 1024px) {} 
+
+.about-subtitle-1{
+  margin: 0;
+}
+
+@media screen and (width > 768px) {}
+@media screen and (width > 1024px) {} 
+
+.about-text-1{
+
+}
+
+@media screen and (width > 768px) {}
+@media screen and (width > 1024px) {} 
 
 
 /* overflow hidden -- pointer-events */
