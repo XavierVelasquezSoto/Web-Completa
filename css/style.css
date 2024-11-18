@@ -2397,30 +2397,246 @@ body {
 
 
 
+/* CAREERS */
+
+
+.careers-img{
+  background-image: url(../assets/img/images/careers-location-hero-mobile.jpg);
+  background-size: cover;
+  height: 160px;
+}
+
+@media screen and (width > 768px) {
+  .careers-img{
+    background-image: url(../assets/img/images/careers-locations-hero-tablet.jpg);
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    overflow: hidden;
+    padding-left: 97px;
+    padding-top: 70px;
+  }
+}
+
+@media screen and (width > 1024px) {
+  .careers-img{
+    background-image: url(../assets/img/images/careers-locations-hero-desktop.jpg);
+    background-size: cover;
+    padding-left: 165px;
+    padding-top: 68px;
+  }
+}
+
+
+.careers-title{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1.79px;
+  color: #fff;
+  font-family: "Space Mono", serif;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 60px;
+}
+
+@media screen and (width > 768px) {
+  .careers-title{
+    padding: 0;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+  }
+}
+
+
+.careers-circles{
+  display: none;
+}
+
+@media screen and (width > 768px) {
+  .careers-circles{
+    display: block;
+    position: relative;
+    padding-left: 242px;
+  }
+}
+@media screen and (width > 1024px) {
+  .careers-circles{
+    padding-left: 846px;
+  }
+} 
 
 
 
 
+/* LOCATIONS */
 
 
 
+.location-img{
+  background-image: url(../assets/img/images/careers-location-hero-mobile.jpg);
+  background-size: cover;
+  height: 160px;
+}
+
+@media screen and (width > 768px) {
+  .location-img{
+    background-image: url(../assets/img/images/careers-locations-hero-tablet.jpg);
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    overflow: hidden;
+    padding-left: 97px;
+    padding-top: 70px;
+  }
+}
+
+@media screen and (width > 1024px) {
+  .location-img{
+    background-image: url(../assets/img/images/careers-locations-hero-desktop.jpg);
+    background-size: cover;
+    padding-left: 165px;
+    padding-top: 68px;
+  }
+}
+
+
+.location-title{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1.79px;
+  color: #fff;
+  font-family: "Space Mono", serif;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 60px;
+}
+
+@media screen and (width > 768px) {
+  .location-title{
+    padding: 0;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+  }
+}
+
+
+.location-circles{
+  display: none;
+}
+
+@media screen and (width > 768px) {
+  .location-circles{
+    display: block;
+    position: relative;
+    padding-left: 179px;
+  }
+}
+@media screen and (width > 1024px) {
+  .location-circles{
+    padding-left: 783px;
+  }
+} 
+
+/* LOCATION MAIN */
+
+
+.location-wolrd-map{
+  background-image: url(../assets/img/images/world-map-mobile.png);
+  background-size: cover;
+  height: 152px;
+  margin-top: 72px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.location-country{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 336px;
+  margin-top: 40px;
+}
+
+.location-box {
+  width: 311px;
+  height: 72px;
+  background-color: rgb(252, 183, 43, 0.15);
+}
+
+
+.location-text-country{
+  font-family: "Space Mono", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07px;
+  color: #495567;
+  margin: 0;
+  text-align: center;
+  padding-top: 22px;
+}
 
 
 
+.location-box-final{
+  height: 306px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 72px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
 
 
+.location-title-final{
+  font-family: "Space Mono", serif;
+  font-weight: 700;
+  margin: 0;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -1.43px;
+  text-align: center;
+  color: #495567;
+}
 
 
+.location-text-final{
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #939CAA;
+}
 
+.location-button-message{
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  position: relative;
+  color: #fff;
+}
 
-
-
-
-
-
-
-
-
+.location-button-message::after{
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 53px;
+  background-color: #FCB72B;
+  left: -50px;
+  top: -10px;
+  z-index: -1;
+}
 
 
 
