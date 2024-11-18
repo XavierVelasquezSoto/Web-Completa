@@ -2547,6 +2547,10 @@ body {
 
 /* LOCATION MAIN */
 
+/* 
+@media screen and (width > 768px)
+@media screen and (width > 1024px)
+*/
 
 .location-wolrd-map{
   background-image: url(../assets/img/images/world-map-mobile.png);
@@ -2557,6 +2561,29 @@ body {
   margin-right: 32px;
 }
 
+@media screen and (width > 768px){
+  .location-wolrd-map{
+    background-image: url(../assets/img/images/world-map-tablet.png);
+    background-size: cover;
+    height: 337px;
+    margin-top: 144px;
+    margin-left: 39px;
+    margin-right: 39px;
+  }
+}
+
+@media screen and (width > 1024px){
+  .location-wolrd-map{
+    background-image: url(../assets/img/images/world-map-desktop.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 543px;
+    margin-top: 120px;
+    margin-left: 166px;
+    margin-right: 166px;
+  }
+}
+
 .location-country{
   display: flex;
   flex-direction: column;
@@ -2564,6 +2591,18 @@ body {
   justify-content: space-between;
   height: 336px;
   margin-top: 40px;
+}
+
+@media screen and (width > 768px){
+  .location-country{
+    margin-top: 64px;
+  }
+}
+
+@media screen and (width > 1024px){
+  .location-country{
+    margin-top: 120px;
+  }
 }
 
 .location-box {
