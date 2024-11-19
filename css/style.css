@@ -1216,9 +1216,6 @@ body {
 }
 
 .footer-circle-1 {
-  /*  background-image: url(../assets/img/patterns/semi-circles.svg);
-  background-size: cover;
-  background-repeat: no-repeat; */
   position: relative;
   top: 125px;
 }
@@ -1308,11 +1305,6 @@ body {
   color: #939caa;
 }
 
-@media screen and (width > 768px) {
-}
-
-@media screen and (width > 1024px) {
-}
 
 .flex-networks {
   display: flex;
@@ -1343,10 +1335,6 @@ body {
   height: 24px;
 }
 
-@media screen and (width > 768px) {
-}
-@media screen and (width > 1024px) {
-}
 
 .logo-networks-x {
   background-image: url(../assets/img/icons/twitter.svg);
@@ -1356,11 +1344,6 @@ body {
   height: 24px;
 }
 
-@media screen and (width > 768px) {
-}
-@media screen and (width > 1024px) {
-}
-
 .logo-networks-instagram {
   background-image: url(../assets/img/icons/instagram.svg);
   background-size: cover;
@@ -1368,18 +1351,11 @@ body {
   height: 24px;
 }
 
-@media screen and (width > 768px) {
-}
-@media screen and (width > 1024px) {
-}
 
 /* ABOUT */
 
 /* header */
-/* 
-@media screen and (width > 768px) {}
-@media screen and (width > 1024px) {} 
-*/
+
 
 .header-img {
   background-image: url(../assets/img/images/about-hero-mobile.jpg);
@@ -1450,10 +1426,6 @@ body {
 
 /* ABOUT MAIN */
 
-/* 
-@media screen and (width > 768px) {}
-@media screen and (width > 1024px) {} 
-*/
 
 .about-hidden {
   overflow: hidden;
@@ -1648,10 +1620,6 @@ body {
 
 /* ABOUT LIVING */
 
-/* 
-@media screen and (width > 768px) {}
-@media screen and (width > 1024px) {} 
-*/
 
 .about-hidden-2 {
   overflow: hidden;
@@ -1847,10 +1815,6 @@ body {
 
 /* VALUES */
 
-/* 
-@media screen and (width > 768px)
-@media screen and (width > 1024px)
-*/
 
 @media screen and (width > 1024px) {
   .about-values {
@@ -1874,6 +1838,7 @@ body {
   height: 32px;
   margin: 0;
   margin-top: 120px;
+  color: #495567;
 }
 
 @media screen and (width > 768px) {
@@ -1991,6 +1956,7 @@ body {
   line-height: 28px;
   letter-spacing: 1.07px;
   text-align: center;
+  color: #495567;
 }
 
 @media screen and (width > 1024px) {
@@ -2047,8 +2013,6 @@ body {
   border-radius: 50%;
 }
 
-@media screen and (width > 1024px) {
-}
 
 .values-number-2 {
   font-family: 'Space Mono', serif;
@@ -2063,10 +2027,6 @@ body {
   z-index: 1;
 }
 
-@media screen and (width > 768px) {
-}
-@media screen and (width > 1024px) {
-}
 
 .values-number-2::after {
   content: '';
@@ -2078,9 +2038,6 @@ body {
   left: -32px;
   top: -32px;
   z-index: -1;
-}
-
-@media screen and (width > 1024px) {
 }
 
 .values-container-text-2 {
@@ -2103,6 +2060,7 @@ body {
     margin-right: 155px;
   }
 }
+
 @media screen and (width > 1024px) {
   .values-container-text-2 {
     margin: 0;
@@ -2117,9 +2075,7 @@ body {
   line-height: 28px;
   letter-spacing: 1.07px;
   text-align: center;
-}
-
-@media screen and (width > 1024px) {
+  color: #495567;
 }
 
 .values-text-2 {
@@ -2171,8 +2127,6 @@ body {
   height: 240px;
   border-radius: 50%;
 }
-@media screen and (width > 1024px) {
-}
 
 .values-number-3 {
   font-family: 'Space Mono', serif;
@@ -2187,8 +2141,6 @@ body {
   z-index: 1;
 }
 
-@media screen and (width > 1024px) {
-}
 
 .values-number-3::after {
   content: '';
@@ -2200,8 +2152,6 @@ body {
   left: -32px;
   top: -32px;
   z-index: -1;
-}
-@media screen and (width > 1024px) {
 }
 
 .values-container-text-3 {
@@ -2238,10 +2188,9 @@ body {
   line-height: 28px;
   letter-spacing: 1.07px;
   text-align: center;
+  color: #495567;
 }
 
-@media screen and (width > 1024px) {
-}
 
 .values-text-3 {
   color: #939caa;
@@ -2259,6 +2208,9 @@ body {
 
 /* FAQ */
 
+
+
+
 .faq-title {
   margin: 0;
   text-align: center;
@@ -2270,6 +2222,31 @@ body {
   letter-spacing: -1.43px;
   color: #495567;
 }
+
+
+@media screen and (width > 1024px){
+.faq-flex{
+  display: flex;
+  margin-top: 64px;
+  padding: 0 165px;
+}
+
+.faq-column{
+  display: flex;
+  flex-direction: column;
+  width: 703px;
+  margin-left: 90px;
+}
+}
+
+@media screen and (width > 768px){
+  .faq-title{
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+  }
+}
+@media screen and (width > 1024px){} 
 
 .faq-works {
   text-align: center;
@@ -2283,24 +2260,55 @@ body {
   margin-top: 48px;
 }
 
+@media screen and (width > 768px){
+  .faq-works{
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.79px;
+  margin-top: 64px;
+  }
+}
+@media screen and (width > 1024px){
+  .faq-works{
+    margin-top: 0;
+  }
+} 
+
 .faq-hidden {
   background-color: #f2f5f9;
-  border: solid red;
-  margin-left: auto;
-  margin-right: auto;
-  width: 311px;
-  height: 311px;
-  display: flex;
-  align-items: center;
-  padding-left: 32px;
-  padding-right: 32px;
+/*   border: solid red; */
   margin-top: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
+  display: flex;
+  align-items: start;
 }
+
+@media screen and (width > 768px){
+  .faq-hidden{
+    margin-left: 39px;
+    margin-right: 39px;
+  }
+}
+@media screen and (width > 1024px){
+  .faq-hidden{
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+
+  .faq-hidden-final{
+    margin: 0;
+  }
+} 
 
 .faq-info {
   pointer-events: none;
   overflow: hidden;
 }
+
+@media screen and (width > 768px){}
+@media screen and (width > 1024px){} 
 
 .faq-subtitle {
   color: #495567;
@@ -2310,7 +2318,17 @@ body {
   letter-spacing: -0.8px;
   font-family: 'Space Mono', serif;
   font-weight: 700;
+  padding: 32px 60px 0 32px;
 }
+
+@media screen and (width > 768px){
+  .faq-subtitle{
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07px;
+  }
+}
+@media screen and (width > 1024px){} 
 
 .faq-text {
   color: #495567;
@@ -2318,23 +2336,42 @@ body {
   text-align: left;
   font-size: 15px;
   line-height: 25px;
-  padding-top: 24px;
-  max-height: 0;
+
+  
+  max-height: 0px;
   transition: max-height 0.5s;
-  pointer-events: none;
+  pointer-events: none;  
+
+
+  margin-top: 24px;
+/*   padding: 0 32px 0 28px; */
+  padding: 0 32px 0 28px;
 }
+
+@media screen and (width > 768px){
+  .faq-text{
+
+  }
+}
+@media screen and (width > 1024px){} 
 
 .faq-text-show {
   max-height: 400px;
 }
 
+@media screen and (width > 768px){}
+@media screen and (width > 1024px){} 
+
 .faq-arrow {
   width: 16px;
   height: 8px;
   position: relative;
-  top: -120px;
-  left: 10px;
+  top: 50px;
+  left: -20px;
 }
+
+@media screen and (width > 768px){}
+@media screen and (width > 1024px){} 
 
 /* CAREERS */
 
@@ -2405,19 +2442,195 @@ body {
   }
 }
 
-.careers-container::after {
+/* careers main */
+
+@media screen and (width > 1024px){
+  .careers-position-desktop{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    margin-top: 120px;
+    padding-left: 165px;
+  }
+}
+
+
+.careers-container::before {
   content: '';
   position: absolute;
   background-image: url(../assets/img/patterns/left-downward-arrow.svg);
-  background-size: contain;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  top: 300px;
+  width: 91%;
+  height: 150px;
+  top: 420px;
+  left: 32px;  
+}
+
+@media screen and (width > 768px){
+  .careers-container::before{
+    left: 32px;
+    top: 735px;
+    width: 95%;
+  }
+}
+
+@media screen and (width > 1024px){
+  .careers-container::before{
+    top: 712px;
+    left: 700px;
+    width: 50%;
+  }
+}
+
+
+@media screen and (width > 768px){
+.careers-container::after{
+  content: "";
+  position: absolute;
+  background-image: url(../assets/img/patterns/circle.svg);
+  background-repeat: no-repeat;
+  width: 13%;
+  height: 445px;
+  left: 669px;
+  top: 450px;
+  z-index: -1;
+  }
+}
+
+@media screen and (width > 1024px){
+  .careers-container::after{
+    top: 410px;
+    left: 1315px;
+    width: 6%;
+  }
 }
 
 .careers-join {
+  height: 311px;
   border-radius: 100%;
+  margin-top: 72px;
+  padding-left: 32px;
+  padding-right: 32px;  
+}
+
+@media screen and (width > 768px){
+  .careers-join{
+    height: 445px;
+    margin-top: 144px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+}
+@media screen and (width > 1024px){
+  .careers-join{
+    margin: 0;
+    margin-left: 220px;
+  }
+}
+
+.careers-container-join{
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: space-between;
+  padding: 52px 32px 0;
+}
+
+@media screen and (width > 768px){
+  .careers-container-join{
+    padding: 64px 97px 0;
+  }
+}
+@media screen and (width > 1024px){
+  .careers-container-join{
+    padding: 0;
+    width: 445px;
+    height: 313px;
+  }
+}
+
+.careers-join-subtitle{
+  color: #495567;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -1.43px;
+  text-align: center;
+  margin: 0;
+  font-family: "Space Mono", serif;
+  font-weight: 700;
+}
+
+@media screen and (width > 768px){
+  .careers-join-subtitle{
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+  }
+}
+@media screen and (width > 1024px){
+  .careers-join-subtitle{
+    text-align: left;
+    padding-top: 66px;
+  }
+}
+
+.careers-join-text{
+  color: #939CAA;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 32px;
+}
+
+@media screen and (width > 768px){
+  .careers-join-text{
+    padding-top: 40px;
+    text-align: left;
+  }
+}
+@media screen and (width > 1024px){
+  .careers-join-text{
+    padding: 0;
+    padding-top: 24px;
+  }
+}
+
+.careers-button-hello{
+  position: relative;
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  font-family: "Space Mono", serif;
+  font-weight: 700;
+  padding-top: 46px;
+}
+
+@media screen and (width > 768px){
+  .careers-button-hello{
+  padding-top: 54px;
+  }
+}
+@media screen and (width > 1024px){
+  .careers-button-hello{
+    text-align: left;
+    padding: 0;
+    left: -135px;
+    padding-top: 54px;
+    
+  }
+}
+
+.careers-button-hello::before{
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 53px;
+  background-color: #FCB72B;
+  z-index: -1;
+  left: -45px;
+  top: 40px;
 }
 
 /* LOCATIONS */
@@ -2491,10 +2704,6 @@ body {
 
 /* LOCATION MAIN */
 
-/* 
-@media screen and (width > 768px)
-@media screen and (width > 1024px)
-*/
 
 .location-wolrd-map {
   background-image: url(../assets/img/images/world-map-mobile.png);
@@ -2542,12 +2751,6 @@ body {
     display: none;
   }
 }
-
-/* @media screen and (width > 1024px) {
-  .location-country {
-    margin-top: 120px;
-  }
-} */
 
 .location-box {
   width: 311px;
